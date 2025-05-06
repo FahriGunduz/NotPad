@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>640</width>
+    <height>440</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>640</width>
+    <height>440</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>640</width>
+    <height>440</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="gridLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>640</width>
+      <height>411</height>
+     </rect>
+    </property>
+    <layout class="QGridLayout" name="gridLayout">
+     <item row="0" column="4">
+      <widget class="QSpinBox" name="spinBox"/>
+     </item>
+     <item row="0" column="2">
+      <widget class="QPushButton" name="pushButton">
+       <property name="text">
+        <string>Yapıştır</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="0">
+      <widget class="QPushButton" name="pushButton_5">
+       <property name="text">
+        <string>Kes</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QPushButton" name="pushButton_4">
+       <property name="text">
+        <string>Kopyala</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="3">
+      <widget class="QFontComboBox" name="fontComboBox"/>
+     </item>
+     <item row="0" column="6">
+      <widget class="QPushButton" name="pushButton_3">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
+       <property name="text">
+        <string>İtalik</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="5">
+      <widget class="QPushButton" name="pushButton_2">
+       <property name="text">
+        <string>Bold</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0" colspan="7">
+      <widget class="QTextEdit" name="textEdit"/>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>640</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuYeni">
+    <property name="title">
+     <string>Yeni</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menuA">
+    <property name="title">
+     <string>Aç</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menuKaydet">
+    <property name="title">
+     <string>Kaydet</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menuKapat">
+    <property name="title">
+     <string>Kapat</string>
+    </property>
+   </widget>
+   <addaction name="menuYeni"/>
+   <addaction name="menuA"/>
+   <addaction name="menuKaydet"/>
+   <addaction name="menuKapat"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
